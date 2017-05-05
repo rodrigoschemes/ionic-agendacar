@@ -1,0 +1,11 @@
+<ion-view title="Fornecedores" id="page3">
+    <ion-content padding="true" class="has-header">
+        <ion-list id="fornecedores-list1">
+            <ion-item ng-repeat="fornecedor in fornecedores" > 
+	            <h2>{{fornecedor.nome}}</h2>
+	            <p>{{fornecedor.telefoneComercial | brPhoneNumber}}</p>
+	            <p>{{fornecedor.telefoneComercial | brPhoneNumber}}</p> 
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
